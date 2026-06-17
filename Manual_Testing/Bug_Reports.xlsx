@@ -1,0 +1,78 @@
+Bug ID: BUG001
+
+Title: Login accepts empty password
+
+Module: Login
+
+Severity: High
+
+Priority: High
+
+Steps to Reproduce:
+
+1. Open Login page
+2. Enter valid email
+3. Leave password blank
+4. Click Login
+
+Expected Result:
+Validation message should appear.
+
+Actual Result:
+Form is submitted without validation.
+
+Status:
+Open
+
+---
+
+Bug ID: BUG002
+
+Title: Search box accepts special characters
+
+Module: Product Search
+
+Severity: Medium
+
+Priority: Medium
+
+Steps to Reproduce:
+
+1. Open Products page
+2. Enter @#$%^&* in search box
+3. Click Search
+
+Expected Result:
+Validation message or no results found.
+
+Actual Result:
+Unexpected results displayed.
+
+Status:
+Open
+
+---
+
+Bug ID: BUG003
+
+Title: Cart page layout breaks on mobile view
+
+Module: Cart
+
+Severity: Low
+
+Priority: Low
+
+Steps to Reproduce:
+
+1. Open Cart page on mobile screen
+2. Observe product table
+
+Expected Result:
+Page should display properly.
+
+Actual Result:
+Content overlaps and is not aligned.
+
+Status:
+Open
