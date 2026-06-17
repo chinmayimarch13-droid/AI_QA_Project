@@ -1,0 +1,47 @@
+# Manual Test Cases
+
+## Login Module
+
+### TC01 - Valid Login
+
+**Expected Result:** Login successful and user is redirected to the home page.
+
+### TC02 - Invalid Login
+
+**Expected Result:** Error message is displayed indicating invalid credentials.
+
+### TC03 - Empty Email
+
+**Expected Result:** Validation message is displayed.
+
+### TC04 - Empty Password
+
+**Expected Result:** Validation message is displayed.
+
+### TC05 - Both Fields Empty
+
+**Expected Result:** Validation message is displayed.
+
+---
+
+## Product Search Module
+
+### TC06 - Search Valid Product
+
+**Expected Result:** Matching product list is displayed.
+
+### TC07 - Search Invalid Product
+
+**Expected Result:** No products found message is displayed.
+
+### TC08 - Search with Special Characters
+
+**Expected Result:** Appropriate result or validation message is displayed.
+
+### TC09 - Search with Empty Input
+
+**Expected Result:** All products are displayed or validation message is shown.
+
+### TC10 - Search Product with Partial Name
+
+**Expected Result:** Relevant products are displayed.
